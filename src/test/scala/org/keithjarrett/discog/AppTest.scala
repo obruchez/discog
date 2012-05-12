@@ -1,4 +1,4 @@
-package code
+package org.keithjarrett.discog
 
 import java.io.File
 import junit.framework._

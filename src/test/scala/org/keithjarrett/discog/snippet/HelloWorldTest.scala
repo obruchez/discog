@@ -1,5 +1,4 @@
-package code
-package snippet
+package org.keithjarrett.discog.snippet
 
 import org.specs._
 import org.specs.runner.JUnit4
