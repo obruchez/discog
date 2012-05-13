@@ -1,17 +1,13 @@
 package org.keithjarrett.discog.snippet
 
+import net.liftweb.http._
+import net.liftweb.common._
+import net.liftweb.util.Helpers._
+import org.keithjarrett.discog.lib._
 import org.specs._
 import org.specs.runner.JUnit4
 import org.specs.runner.ConsoleRunner
-import net.liftweb._
-import http._
-import net.liftweb.util._
-import net.liftweb.common._
-import org.specs.matcher._
 import org.specs.specification._
-import Helpers._
-import lib._
-
 
 class HelloWorldTestSpecsAsTest extends JUnit4(HelloWorldTestSpecs)
 object HelloWorldTestSpecsRunner extends ConsoleRunner(HelloWorldTestSpecs)
